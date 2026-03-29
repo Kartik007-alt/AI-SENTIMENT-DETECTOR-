@@ -4,38 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sentiment Analysis CLI Tool</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f4f6f8;
-            color: #333;
-        }
-        h1, h2, h3 {
-            color: #2c3e50;
-        }
-        code {
-            background-color: #eee;
-            padding: 4px 6px;
-            border-radius: 5px;
-        }
-        pre {
-            background-color: #222;
-            color: #0f0;
-            padding: 10px;
-            border-radius: 8px;
-            overflow-x: auto;
-        }
-        .container {
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        ul {
-            line-height: 1.8;
-        }
-    </style>
+  
+     
+           
 </head>
 <body>
 
