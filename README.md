@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-  
-     
-           
 </head>
 <body>
 
-<div class="container">
+<div class="header">
+    <h1> Sentiment Analysis CLI Tool</h1>
+    <h2> Name: KARTIK</h2>
+    <h3> Registration Number: 25BAI11154</h3>
+</div>
 
-<h1> Sentiment Analysis CLI Tool</h1>
+<div class="container">
 
 <h2> Overview</h2>
 <p>
 The <b>Sentiment Analysis CLI Tool</b> is an AI-based application that analyzes text and classifies it into 
-<b>Positive, Negative, or Neutral</b> sentiments. It uses <b>Natural Language Processing (NLP)</b> 
-and <b>Machine Learning (Naive Bayes + TF-IDF)</b> for accurate predictions.
+<b>Positive, Negative, or Neutral</b> sentiments using NLP and Machine Learning techniques.
 </p>
 
 <h2> Features</h2>
@@ -66,7 +66,7 @@ cd sentiment-cli
 pip install pandas scikit-learn matplotlib seaborn joblib
 </pre>
 
-<h2>How to Run</h2>
+<h2> How to Run</h2>
 
 <h3>Generate Dataset</h3>
 <pre>python generate_dataset.py</pre>
@@ -88,7 +88,7 @@ Input: I love this product
 Output: POSITIVE
 </pre>
 
-<h2>Output</h2>
+<h2> Output</h2>
 <ul>
     <li>Confusion Matrix</li>
     <li>Accuracy Graph</li>
@@ -122,9 +122,6 @@ Output: POSITIVE
     <li>API integration</li>
 </ul>
 
-<h2> Author</h2>
-<p>KARTIK<br>Course: Fundamentals of AI & ML</p>
-
 <h2> License</h2>
 <p>For educational purposes only.</p>
 
@@ -132,3 +129,4 @@ Output: POSITIVE
 
 </body>
 </html>
+
