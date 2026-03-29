@@ -16,21 +16,21 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 MODEL_FILE = "sentiment_model.pkl"
 
-# -----------------------------
+
 # Load Model
-# -----------------------------
+
 def load_model():
     if os.path.exists(MODEL_FILE):
         return joblib.load(MODEL_FILE)
     return None
 
 
-# -----------------------------
+
 # Train Model
-# -----------------------------
+
 def train_model():
     if not os.path.exists("data.csv"):
-        print("❌ data.csv not found!")
+        print(" data.csv not found!")
         return None
 
     data = pd.read_csv("data.csv")
@@ -54,12 +54,12 @@ def train_model():
 
     joblib.dump(model, MODEL_FILE)
 
-    print(f"\n✅ Model trained successfully!")
-    print(f"📊 Accuracy: {accuracy * 100:.2f}%")
+    print(f"\n Model trained successfully!")
+    print(f" Accuracy: {accuracy * 100:.2f}%")
 
-    # -----------------------------
-    # 📉 Confusion Matrix
-    # -----------------------------
+    
+    # Confusion Matrix
+    
     cm = confusion_matrix(y_test, predictions, labels=["positive", "negative", "neutral"])
 
     plt.figure()
@@ -71,9 +71,9 @@ def train_model():
     plt.ylabel("Actual")
     plt.show()
 
-    # -----------------------------
-    # 📊 Accuracy Graph (Simple)
-    # -----------------------------
+    
+    #  Accuracy Graph (Simple)
+    
     plt.figure()
     plt.bar(["Accuracy"], [accuracy])
     plt.title("Model Accuracy")
@@ -84,9 +84,9 @@ def train_model():
 
 
 
-# -----------------------------
+
 # Predict Sentiment
-# -----------------------------
+
 def predict_sentiment(model):
     text = input("\nEnter text: ")
 
@@ -98,20 +98,20 @@ def predict_sentiment(model):
     print(f" Sentiment: {prediction.upper()}")
 
 
-# -----------------------------
+
 # Analyze CSV File
-# -----------------------------
+
 def analyze_csv(model):
     file_name = input("Enter CSV file name: ")
 
     if not os.path.exists(file_name):
-        print("❌ File not found!")
+        print(" File not found!")
         return
 
     data = pd.read_csv(file_name)
 
     if "text" not in data.columns:
-        print("❌ CSV must contain 'text' column!")
+        print(" CSV must contain 'text' column!")
         return
 
     data["predicted_sentiment"] = model.predict(data["text"])
@@ -119,12 +119,12 @@ def analyze_csv(model):
     output_file = "output_" + file_name
     data.to_csv(output_file, index=False)
 
-    print(f"✅ Analysis complete. Saved as {output_file}")
+    print(f" Analysis complete. Saved as {output_file}")
 
 
-# -----------------------------
+
 # Menu
-# -----------------------------
+
 def menu():
     print("\n===== Advanced Sentiment Analysis CLI =====")
     print("1. Train Model")
@@ -133,9 +133,9 @@ def menu():
     print("4. Exit")
 
 
-# -----------------------------
+
 # Main Program
-# -----------------------------
+
 def main():
     model = load_model()
 
@@ -153,11 +153,11 @@ def main():
             analyze_csv(model)
 
         elif choice == '4':
-            print("👋 Exiting...")
+            print(" Exiting...")
             break
 
         else:
-            print("❌ Invalid choice")
+            print(" Invalid choice")
 
 
 if __name__ == "__main__":
