@@ -26,4 +26,4 @@ for _ in range(350):
 df = pd.DataFrame(data, columns=["text", "label"])
 df.to_csv("data.csv", index=False)
 
-print("✅ 1000+ dataset generated successfully!")
+print("1000+ dataset generated successfully!")
