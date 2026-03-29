@@ -1,0 +1,121 @@
+text,label,predicted_sentiment
+I love this product,positive,positive
+This is amazing,positive,positive
+Absolutely fantastic experience,positive,positive
+I am very happy with this,positive,positive
+Best purchase ever,positive,positive
+This made my day,positive,positive
+Highly recommend it,positive,positive
+Superb quality,positive,negative
+I enjoyed using this,positive,positive
+This is wonderful,positive,positive
+Very satisfied,positive,positive
+Excellent performance,positive,positive
+Works perfectly,positive,positive
+I like it a lot,positive,neutral
+Great job,positive,neutral
+Totally worth it,positive,negative
+Brilliant design,positive,positive
+Loved it,positive,neutral
+Very useful,positive,positive
+Incredible product,positive,positive
+I hate this,negative,negative
+This is terrible,negative,positive
+Worst experience ever,negative,negative
+Very disappointing,negative,negative
+I am unhappy,negative,negative
+Not worth the money,negative,negative
+Poor quality,negative,negative
+Completely useless,negative,negative
+I regret buying this,negative,negative
+Awful product,negative,negative
+Very bad,negative,negative
+Horrible experience,negative,negative
+It broke quickly,negative,negative
+Waste of money,negative,negative
+Extremely poor,negative,negative
+Does not work,negative,negative
+Very frustrating,negative,negative
+I dislike it,negative,negative
+Terrible service,negative,negative
+Pathetic performance,negative,negative
+It is okay,neutral,neutral
+Average experience,neutral,neutral
+Nothing special,neutral,neutral
+It works fine,neutral,neutral
+Not bad,neutral,neutral
+Just okay,neutral,neutral
+Neutral feeling,neutral,neutral
+So so product,neutral,neutral
+Fair enough,neutral,negative
+No strong opinion,neutral,neutral
+Mediocre quality,neutral,neutral
+Neither good nor bad,neutral,neutral
+It’s fine,neutral,neutral
+Decent product,neutral,positive
+Average performance,neutral,neutral
+Okayish experience,neutral,neutral
+Satisfactory,neutral,neutral
+Acceptable,neutral,negative
+Not impressive,neutral,neutral
+Balanced experience,neutral,neutral
+I really love this,positive,positive
+This is the best thing ever,positive,positive
+I am extremely happy,positive,positive
+Fantastic product,positive,positive
+Very good experience,positive,negative
+I am impressed,positive,negative
+Five stars,positive,positive
+Will buy again,positive,negative
+Highly satisfied,positive,positive
+Great quality,positive,neutral
+This is awful,negative,positive
+I am very disappointed,negative,negative
+Worst purchase,negative,negative
+I hate it so much,negative,neutral
+Very poor experience,negative,negative
+Not recommended,negative,negative
+Cheap quality,negative,negative
+Bad service,negative,negative
+Unacceptable,negative,negative
+Very annoying,negative,negative
+It’s average,neutral,neutral
+Nothing great,neutral,neutral
+It’s manageable,neutral,neutral
+Neither here nor there,neutral,neutral
+Okay product,neutral,neutral
+Moderate quality,neutral,negative
+It does the job,neutral,neutral
+Not too bad,neutral,neutral
+Regular experience,neutral,neutral
+Fine overall,neutral,neutral
+Absolutely love it,positive,positive
+This is brilliant,positive,positive
+Super happy with this,positive,positive
+Very impressive,positive,positive
+Top quality,positive,positive
+Amazing results,positive,positive
+Delighted with purchase,positive,positive
+Extremely good,positive,positive
+Outstanding,positive,positive
+Perfect product,positive,positive
+Extremely bad,negative,negative
+Very poor quality,negative,negative
+Disgusting experience,negative,neutral
+I am frustrated,negative,negative
+Completely disappointed,negative,negative
+Terrible results,negative,negative
+Worst service,negative,negative
+Highly dissatisfied,negative,negative
+Very bad product,negative,negative
+Not good at all,negative,negative
+Just average,neutral,neutral
+Nothing to complain,neutral,neutral
+Works as expected,neutral,neutral
+Okay experience,neutral,neutral
+Not great not bad,neutral,neutral
+Typical product,neutral,neutral
+Standard quality,neutral,neutral
+Moderately good,neutral,neutral
+Usual experience,neutral,neutral
+Simple and fine,neutral,neutral
