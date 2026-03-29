@@ -123,7 +123,7 @@ Output: POSITIVE
 </ul>
 
 <h2> Author</h2>
-<p>Your Name<br>Course: Fundamentals of AI & ML</p>
+<p>KARTIK<br>Course: Fundamentals of AI & ML</p>
 
 <h2> License</h2>
 <p>For educational purposes only.</p>
